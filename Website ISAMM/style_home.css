@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body
+{
+    
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(img/isamm.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+header img
+{
+	padding-top: 20px;
+padding-left: 10px;
+padding-bottom: -20px;
+}
+header
+{
+    
+    background: transparent;
+    width: 100%;
+    position: fixed;
+     z-index: 999;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px 10px;
+}
+
+span
+{
+    color:rgb(16, 30, 229);
+}
+.linkers a
+{
+    
+    color:rgb(229, 16, 77) ;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding: 30px;
+}
+.linkers a:hover
+{
+    color:rgb(16, 30, 229);
+}
+.icons a
+{
+    color: white;
+    font-size: 1.7em ;
+    padding-right:20px;
+    position: relative;
+    top: 690px;
+    align-items: center;
+
+
+}
+.text
+{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: -15%;
+    left:5% ;
+    padding: 250px;
+    text-align: center;
+}
+.text h1
+{
+    font-size: 3.5em;
+}
+text p
+{
+    padding-top: 15px ;
+    font-size: 1em;
+}
+.text a
+{
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(229, 16, 77);;
+    display:inline-block ;
+    padding: 8px 40px;
+    border: 1px solid white;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: 1s ease;
+}
+.text a:hover {
+
+   
+    transform: scale(1.1);
+    color:rgb(16, 30, 229);
+
+}
+
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .text h1{
+        font-size: 12em;
+    }
+
+    .text p{
+        font-size: 1.4em;
+    }
+    .linkers a
+    {
+        font-size: 0.5em;
+        font-weight: 200;
+    }
+}
